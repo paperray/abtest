@@ -1,0 +1,26 @@
+{
+    "name": "paperstreetmedia/abtest",
+    "description": "ABTest modules for smallsite",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "paperray",
+            "email": "paperraytanute@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"paperstreetmedia/core": "dev-master"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:paperstreetmedia/core.git"
+		}
+	],
+	"autoload":{
+		"psr-0" : {
+			"Paperstreetmedia": "src/"
+		}
+	}
+}
